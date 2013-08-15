@@ -1,0 +1,37 @@
+<html>
+<head>
+<b><u>Khiladi</b></u>
+</head>
+<body>
+<p align="justified">
+Anil and Amol play a game. Both gets a number n that does not change. Anil receives number a and Amol receives number b. They also have a heap of n stones. The players take turns to make a move and Anil starts. During a move a player should take from the heap the number of stones equal to the greatest common divisor of the fixed number he has received and the number of stones left in the heap. A player loses when he cannot take the required number of stones (i. e. the heap has strictly less stones left than one needs to take).
+
+Your task is to determine by the given a, b and n who wins the game.<br/>
+
+</p>
+<p align="justified">
+<b>Input:</b>
+First line contains an integer t(t <= 600) containing number of test cases.
+Then t lines follow. Each contains three integers a, b and n (1<=a,b,n<=10^6) -- the fixed numbers Anil and Amol have received correspondingly and the initial number of stones in the pile.
+ <br/><br/>
+ 
+<b>Output :</b>
+<font color="red">
+If Anil wins, print "0" (without the quotes), otherwise if Amol wins print "1" (without the quotes).
+</font>
+ </p>
+ <pre>
+Sample Test Case :
+
+Input:
+2
+3 5 9
+29091 28781 16072
+
+Output:
+0
+1
+
+</pre>
+  </body>
+  </html>

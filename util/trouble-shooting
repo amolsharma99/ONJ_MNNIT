@@ -1,0 +1,5 @@
+chmod 777 code
+
+Ubuntu handy command:
+sudo /etc/init.d/apache2 restart
+vi /etc/apache2/httpd.conf

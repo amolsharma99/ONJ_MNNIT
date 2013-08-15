@@ -1,0 +1,3 @@
+sudo chown root ../onj99;
+sudo chmod +s ../onj99;
+

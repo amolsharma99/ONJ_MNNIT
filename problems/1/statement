@@ -1,0 +1,23 @@
+<html>																		Problem : Crosstalk
+<head>
+<p>
+Prabhat and Prashant are very much fond of networking . So they decide to talk to each other through the LAN network of the wing whenever the switch went down . But inorder to secure their messages they encrypted the messages in a language of only ' . ' (dots) and ' - ' (dashes) . They send messages to each other in form of packets composed of strings . Let x be a non-empty string of symbols . Let x^k denote k copies of x concatenated together . We say that a string x' is a repetition of x if it is a prefix of x^k for some number k .</br>
+		But wait ... their transmission system had a bug (:P) due to which some of the packets got mixed with each other and hence the message strings got interleaved . We say that a string s is an interleaving of x and y if its symbols can be partitioned into two ( not necessarily contiguous ) non-empty subsequences s' and s'' such that s' is a repetition of x and s'' is a repetition of y . (Each symbol in s must belong to exactly one s' or s'') . You have to tell YES if s is an interleaving of x and y else NO .</br>
+</br>
+INPUT : </br>
+First line contains number of test cases T(1<= T <=4000) . For each test case , there are 3 lines s , x , y . The strings contain at most ten thousand characters each .</br>
+</br>
+OUTPUT :</br> 
+For each test case output should be YES if s is an interleaving of x and y else NO in a newline .</br> 
+</br>
+SAMPLE INPUT :</br> 
+1</br>
+-...-.-.-</br>
+-.-</br>
+..</br>
+</br>
+SAMPLE OUTPUT :</br> 
+YES</br>
+</br>
+</br>
+Time Limit : 1 sec
